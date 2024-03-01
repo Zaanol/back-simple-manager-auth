@@ -1,0 +1,29 @@
+{
+  "name": "back-simple-manager-aut",
+  "version": "1.0.0",
+  "description": "Backend for a simple authentication manager",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaanol/back-simple-manager-auth.git"
+  },
+  "keywords": [
+    "node",
+    "authentication",
+    "jwt",
+    "key"
+  ],
+  "author": "Zanol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaanol/back-simple-manager-auth/issues"
+  },
+  "homepage": "https://github.com/Zaanol/back-simple-manager-auth#readme",
+  "dependencies": {
+    "mongoose": "^8.2.0"
+  }
+}
