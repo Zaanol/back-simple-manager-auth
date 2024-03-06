@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Zaanol/back-simple-manager-auth/issues"
   },
-  "homepage": "https://github.com/Zaanol/back-simple-manager-auth#readme",
+  "homepage": "https://github.com/Zaanol/back- simple-manager-auth#readme",
   "dependencies": {
     "mongoose": "^8.2.0"
   }
