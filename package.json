@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b -v",
     "start": "node ./out/server.js",
-    "build_start": "npm run build && npm run start"
+    "build_start": "tsc -b -v && node ./out/server.js"
   },
   "repository": {
     "type": "git",
