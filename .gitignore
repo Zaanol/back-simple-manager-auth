@@ -137,3 +137,8 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+# TS -incremental file
+tsconfig.tsbuildinfo
+
+out/

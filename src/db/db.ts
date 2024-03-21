@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 async function connect() {
-    mongoose.connect(process.env.MONGO_URI).then(() => {
+    mongoose.connect(process.env.MONGO_URI + '').then(() => {
         console.log('Connected to MongoDB');
 
         const testSchema = new mongoose.Schema({
@@ -14,6 +14,6 @@ async function connect() {
     );
 }
 
-module.exports = {
+export default {
     connect
 };

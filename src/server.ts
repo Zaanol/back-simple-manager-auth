@@ -1,5 +1,5 @@
-const db = require("./db/db.js");
-const http = require('http');
+import http from 'http';
+import db from './db/db';
 
 main();
 
@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
 
         let response = [
             {
-                id: "a1c90818-1bd0-4fd7-9b3e-78089e0a253f",
+                id: "a1c90818-1bd0-4fd7-9b3e-78089e0a2534",
                 name: "Willian Zanol"
             },
             {
